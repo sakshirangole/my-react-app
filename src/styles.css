@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: blueviolet;
+    align-items: stretch;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding:0 1rem;
+    gap:2rem;
+    
+}
+#site{
+    font-size: 3rem;
+    padding: 5px;
+    color: greenyellow;
+
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap:3rem;
+}
+nav a{
+display: flex;
+color: greenyellow;
+text-decoration: none;
+font-size: 1.5rem;
+align-items: center;
+height:100%;
+display: flex;
+padding:.25rem;
+}
+
+nav li :active{
+    background-color: red;
+
+}
+nav li :hover{
+background-color: white;
+}
+
+.search-bar-container{
+    display: flex;
+    justify-content: space-between;
+}
